@@ -1,0 +1,16 @@
+PODS:
+  - testlibcocoa (0.1.0)
+
+DEPENDENCIES:
+  - testlibcocoa (from `../`)
+
+EXTERNAL SOURCES:
+  testlibcocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  testlibcocoa: 496f53a5bc56e30bb3cbd7854bbc268e6da37c47
+
+PODFILE CHECKSUM: 009e514df9e15f23febed9e51d5b7a4d8e941872
+
+COCOAPODS: 1.11.3
