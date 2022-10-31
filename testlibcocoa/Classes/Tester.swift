@@ -13,4 +13,8 @@ public class Tester {
     public func getprint(){
         print("Hello World Dhanabal")
     }
+    
+    public func Testcal(x:Int,y:Int){
+        print(x+y)
+    }
 }
