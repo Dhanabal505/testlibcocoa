@@ -1,4 +1,4 @@
-use_frameworks!
+ause_frameworks!
 
 platform :ios, '10.0'
 
