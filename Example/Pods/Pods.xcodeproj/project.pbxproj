@@ -1682,39 +1682,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		007DBC8B73AD4A7F0ABD3D89EBFC74FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93BD08154767CB8F1FCEDA17CF259DB1 /* testlibcocoa.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/testlibcocoa/testlibcocoa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/testlibcocoa/testlibcocoa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/testlibcocoa/testlibcocoa.modulemap";
-				PRODUCT_MODULE_NAME = testlibcocoa;
-				PRODUCT_NAME = testlibcocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0CA7ED3EA85DC75C7598EB741DD632E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEE056851FCFF7E5E8A9F01CA2359D0D /* Pods-testlibcocoa_Tests.debug.xcconfig */;
@@ -1911,7 +1878,7 @@
 			};
 			name = Debug;
 		};
-		3A07CAC5836D2F6FCCD60BF9C7D4D7EB /* Debug */ = {
+		3C840FEDA5D449F0FD3DC6ECE5961556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C84240A9B7A377300C8960076568205 /* testlibcocoa.debug.xcconfig */;
 			buildSettings = {
@@ -1928,7 +1895,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/testlibcocoa/testlibcocoa-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/testlibcocoa/testlibcocoa-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/testlibcocoa/testlibcocoa.modulemap";
 				PRODUCT_MODULE_NAME = testlibcocoa;
@@ -2426,6 +2393,39 @@
 			};
 			name = Release;
 		};
+		FBA811EC2DEEB1FEDCE0BCF9329D1AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BD08154767CB8F1FCEDA17CF259DB1 /* testlibcocoa.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/testlibcocoa/testlibcocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/testlibcocoa/testlibcocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/testlibcocoa/testlibcocoa.modulemap";
+				PRODUCT_MODULE_NAME = testlibcocoa;
+				PRODUCT_NAME = testlibcocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2513,8 +2513,8 @@
 		9E1D031674CEF83DAB53DE515667C32B /* Build configuration list for PBXNativeTarget "testlibcocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A07CAC5836D2F6FCCD60BF9C7D4D7EB /* Debug */,
-				007DBC8B73AD4A7F0ABD3D89EBFC74FB /* Release */,
+				3C840FEDA5D449F0FD3DC6ECE5961556 /* Debug */,
+				FBA811EC2DEEB1FEDCE0BCF9329D1AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
