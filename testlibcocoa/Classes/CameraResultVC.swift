@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import QKMRZScanner
+//import QKMRZScanner
 
 class CameraScanResultVC: UIViewController {
 
@@ -72,7 +72,7 @@ class CameraScanResultVC: UIViewController {
         return img
     }()
     
-    var ScanResult:QKMRZScanResult? = nil
+  //  var ScanResult:QKMRZScanResult? = nil
     
     var kDocNumber = String()
     
@@ -110,9 +110,9 @@ class CameraScanResultVC: UIViewController {
     }
     
     func displayData(){
-        self.ScanResult = UserModel.MRZResult
-        if ScanResult != nil{
-            if let doc = ScanResult?.documentNumber{
+        var data = UserModel.MRZResult
+        if data != nil{
+            if let doc = data?.documentNumber{
 //                if doc.count < 9{
 //                    kDocNumber = doc + "<"
 //                }else{
@@ -121,16 +121,16 @@ class CameraScanResultVC: UIViewController {
                 
                 txtDocNo.text = doc
             }
-            if let dob = ScanResult?.birthdate{
+            if let dob = data?.birthdate{
                
                 txtDOB.text = "\(DataModel.getDisplayDate(myDate:dob))"
             }
-            if let expire = ScanResult?.expiryDate{
+            if let expire = data?.expiryDate{
               
                 txtExpire.text = "\(DataModel.getDisplayDate(myDate: expire))"
             }
             
-            if let img = ScanResult?.documentImage{
+            if let img = data?.documentImage{
                 DocImg.image = img
             }
         }
