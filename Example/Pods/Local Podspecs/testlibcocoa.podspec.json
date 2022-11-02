@@ -1,6 +1,6 @@
 {
   "name": "testlibcocoa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "This is my test lib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dhanabal505/testlibcocoa",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/Dhanabal505/testlibcocoa.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "10.0"
   },
   "swift_versions": "5.0",
   "source_files": "testlibcocoa/Classes/**/*",
