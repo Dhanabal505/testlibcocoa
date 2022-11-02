@@ -510,6 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = testlibcocoa_Example.entitlements;
 				DEVELOPMENT_TEAM = KAQC858L75;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7 armv7s i386 x86 64";
 				INFOPLIST_FILE = testlibcocoa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -528,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = testlibcocoa_Example.entitlements;
 				DEVELOPMENT_TEAM = KAQC858L75;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7 armv7s i386 x86 64";
 				INFOPLIST_FILE = testlibcocoa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
