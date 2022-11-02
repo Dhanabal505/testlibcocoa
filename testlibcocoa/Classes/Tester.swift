@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Alamofire
+import QKMRZScanner
 
 public class Tester {
     public init(){}
@@ -17,4 +19,10 @@ public class Tester {
     public func Testcal(x:Int,y:Int){
         print(x+y)
     }
+    
+    public func MRZ(){
+        NavigationModel.redirect(to: MRZVC().self)
+    }
+    
+    
 }

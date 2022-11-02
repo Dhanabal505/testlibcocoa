@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testlibcocoa'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This is my test lib'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,20 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Dhanabal505/testlibcocoa.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
   s.source_files = 'testlibcocoa/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'testlibcocoa' => ['testlibcocoa/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'Resources' => ['testlibcocoa/Assets/back.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'Alamofire', '~> 4.9'
+  s.dependency 'QKMRZParser'
+  s.dependency 'QKMRZScanner'
+  s.dependency 'Toast-Swift', '~> 5.0.0'
+  s.dependency 'NFCPassportReader'
+
 end

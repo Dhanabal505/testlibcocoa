@@ -1,6 +1,6 @@
 {
   "name": "testlibcocoa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "This is my test lib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dhanabal505/testlibcocoa",
@@ -13,12 +13,30 @@
   },
   "source": {
     "git": "https://github.com/Dhanabal505/testlibcocoa.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "swift_versions": "5.0",
   "source_files": "testlibcocoa/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9"
+    ],
+    "QKMRZParser": [
+
+    ],
+    "QKMRZScanner": [
+
+    ],
+    "Toast-Swift": [
+      "~> 5.0.0"
+    ],
+    "NFCPassportReader": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

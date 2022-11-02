@@ -13,8 +13,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let test = Tester()
         test.getprint()
+    
+        navigationController?.pushViewController(SelectionVC(), animated: true)
+    
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setNavigation()
     }
 
     override func didReceiveMemoryWarning() {

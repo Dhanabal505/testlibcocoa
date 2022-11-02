@@ -15,6 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		916D7D3BAFE3CEDC64ADF6D2 /* Pods_testlibcocoa_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5CDEE869D6111558056BDD /* Pods_testlibcocoa_Example.framework */; };
+		AB07447929124BA700608EA1 /* MyTEstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07447829124BA700608EA1 /* MyTEstClass.swift */; };
+		AB074493291273C900608EA1 /* masterList.pem in Resources */ = {isa = PBXBuildFile; fileRef = AB074492291273C900608EA1 /* masterList.pem */; };
+		AB074496291281AA00608EA1 /* forensics.license in Resources */ = {isa = PBXBuildFile; fileRef = AB074495291281AA00608EA1 /* forensics.license */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8A09796113EC16E5DC9F9752 /* Pods-testlibcocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlibcocoa_Example.release.xcconfig"; path = "Target Support Files/Pods-testlibcocoa_Example/Pods-testlibcocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9ABD34CD15144A1A3653628C /* Pods-testlibcocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlibcocoa_Example.debug.xcconfig"; path = "Target Support Files/Pods-testlibcocoa_Example/Pods-testlibcocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AB07447829124BA700608EA1 /* MyTEstClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTEstClass.swift; sourceTree = "<group>"; };
+		AB074492291273C900608EA1 /* masterList.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = masterList.pem; sourceTree = "<group>"; };
+		AB074494291275A300608EA1 /* testlibcocoa_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testlibcocoa_Example.entitlements; sourceTree = "<group>"; };
+		AB074495291281AA00608EA1 /* forensics.license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = forensics.license; sourceTree = "<group>"; };
 		AC5CDEE869D6111558056BDD /* Pods_testlibcocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testlibcocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60A45373EC96205296EAAE8 /* Pods_testlibcocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testlibcocoa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BABA550B1AF027425C2900 /* Pods-testlibcocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlibcocoa_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testlibcocoa_Tests/Pods-testlibcocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +79,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				AB074494291275A300608EA1 /* testlibcocoa_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for testlibcocoa */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -93,8 +101,11 @@
 		607FACD21AFB9204008FA782 /* Example for testlibcocoa */ = {
 			isa = PBXGroup;
 			children = (
+				AB074495291281AA00608EA1 /* forensics.license */,
+				AB074492291273C900608EA1 /* masterList.pem */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AB07447829124BA700608EA1 /* MyTEstClass.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KAQC858L75;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KAQC858L75;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,6 +261,8 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AB074496291281AA00608EA1 /* forensics.license in Resources */,
+				AB074493291273C900608EA1 /* masterList.pem in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +306,25 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-testlibcocoa_Example/Pods-testlibcocoa_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NFCPassportReader/NFCPassportReader.framework",
+				"${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework",
+				"${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/testlibcocoa/testlibcocoa.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFCPassportReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QKMRZParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QKMRZScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTesseract.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testlibcocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB07447929124BA700608EA1 /* MyTEstClass.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,11 +508,13 @@
 			baseConfigurationReference = 9ABD34CD15144A1A3653628C /* Pods-testlibcocoa_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testlibcocoa_Example.entitlements;
+				DEVELOPMENT_TEAM = KAQC858L75;
 				INFOPLIST_FILE = testlibcocoa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.testlibcocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -494,11 +526,13 @@
 			baseConfigurationReference = 8A09796113EC16E5DC9F9752 /* Pods-testlibcocoa_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testlibcocoa_Example.entitlements;
+				DEVELOPMENT_TEAM = KAQC858L75;
 				INFOPLIST_FILE = testlibcocoa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.testlibcocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -509,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0BABA550B1AF027425C2900 /* Pods-testlibcocoa_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KAQC858L75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FAD0C07E4158EE02761362DC /* Pods-testlibcocoa_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KAQC858L75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

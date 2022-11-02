@@ -1,16 +1,49 @@
 PODS:
-  - testlibcocoa (0.1.0)
+  - Alamofire (4.9.1)
+  - NFCPassportReader (1.1.9):
+    - OpenSSL-Universal (= 1.1.180)
+  - OpenSSL-Universal (1.1.180)
+  - QKMRZParser (2.0.0)
+  - QKMRZScanner (3.0.0):
+    - QKMRZParser (~> 2.0.0)
+    - SwiftyTesseract (~> 3.1.3)
+  - SwiftyTesseract (3.1.3)
+  - testlibcocoa (0.1.1):
+    - Alamofire (~> 4.9)
+    - NFCPassportReader
+    - QKMRZParser
+    - QKMRZScanner
+    - Toast-Swift (~> 5.0.0)
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.9)
   - testlibcocoa (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NFCPassportReader
+    - OpenSSL-Universal
+    - QKMRZParser
+    - QKMRZScanner
+    - SwiftyTesseract
+    - Toast-Swift
 
 EXTERNAL SOURCES:
   testlibcocoa:
     :path: "../"
 
 SPEC CHECKSUMS:
-  testlibcocoa: 496f53a5bc56e30bb3cbd7854bbc268e6da37c47
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  NFCPassportReader: 3a4b15d28c89a1f747c957f2bce1230c268dba25
+  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
+  QKMRZParser: 6b419b6f07d6bff6b50429b97de10846dc902c29
+  QKMRZScanner: cf2348fd6ce441e758328da4adf231ef2b51d769
+  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+  testlibcocoa: 9632bf7904fd3b3d6f714eea31267db158dbe95b
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 009e514df9e15f23febed9e51d5b7a4d8e941872
+PODFILE CHECKSUM: b585be81f4a2ed050aec89ee271262ff4810df01
 
 COCOAPODS: 1.11.3
